@@ -1,0 +1,34 @@
+{{ $page := .page }}
+{{ $site := .site }}
+
+<ul>
+{{ range .menu }}
+  {{ $is := $page.IsMenuCurrent "main" . }}
+  {{ $has := $page.HasMenuCurrent "main" . }}
+  {{ if .HasChildren }} 
+    <li>
+	<span {{ if $is }} style="text-decoration: underline" {{ end }}>
+        <a href="{{ .URL | relURL }}" class="{{ if $is }}current{{ end }}">
+		{{ .Pre }}
+		{{ .Name }}
+		{{ if not (or $is $has) }}&raquo;{{ end }}
+	</a>
+	</span>
+	{{ if $is }}<ul id="scrollspy"></ul>{{ end }}
+	{{ if or $is $has }}
+	    {{ partial "nav_recursive" (dict "menu" .Children "page" $page "site" $site) }}
+	{{ end }}
+    </li>
+  {{ else }}
+    <li>
+	<span {{ if $is }} style="text-decoration: underline" {{ end }}>
+        <a href="{{ .URL | relURL }}" class="{{ if $is }}current{{ end }}">
+	    {{ .Pre }}
+	    {{ .Name }}
+	</a>
+	</span>
+	{{ if $is }}<ul id="scrollspy"></ul>{{ end }}
+    </li>
+  {{ end }}
+{{ end }}
+</ul>

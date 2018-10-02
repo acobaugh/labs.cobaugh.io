@@ -1,0 +1,87 @@
+baseURL = "https://lab.cobaugh.io/"
+relativeURLs = true
+canonifyURLs = true
+publishDir = "public"
+
+languageCode = "en-us"
+title = "Cobaugh Labs"
+theme = "hugo-material-docs"
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-112422997-1"
+
+enableGitInfo = true
+
+refLinksNotFoundURL = "404.html"
+
+SectionPagesMenu = "main"
+
+[params]
+	# General information
+	author = "Andy Cobaugh"
+	description = "Cobaugh Labs"
+	copyright = "Andrew Cobaugh"
+
+	# Repository
+	provider = ""
+	repo_url = ""
+
+	version = ""
+	logo = "images/logo.jpg"
+	favicon = "/favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = [ "css/custom.css" ]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "grey"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+[social]
+	email = "acobaugh-at-gmail.com"
+
+[[menu.main]]
+	name   = "High Voltage"
+	identifier = "hv"
+	url    = "hv/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Tools"
+	identifier = "tools"
+	url    = "tools/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Restoration"
+	identifier = "restoration"
+	url    = "resto/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Motorcycles"
+	identifier = "moto"
+	url    = "moto/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Code"
+	identifier = "code"
+	url    = "https://github.com/acobaugh"
+	weight = 40
+
+
+#[blackfriday]
+#	smartypants	= true
+#	fractions = true
+#	smartDashes = true
+#	plainIDAnchors = true
