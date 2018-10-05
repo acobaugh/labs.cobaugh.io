@@ -17,7 +17,6 @@ SectionPagesMenu = "main"
 
 [params]
 	# General information
-	author = "Andy Cobaugh"
 	description = "Cobaugh Labs"
 	copyright = "Andrew Cobaugh"
 
@@ -45,9 +44,6 @@ SectionPagesMenu = "main"
     [params.font]
     	text = "Ubuntu"
     	code = "Ubuntu Mono"
-
-[social]
-	email = "acobaugh-at-gmail.com"
 
 [[menu.main]]
 	name   = "High Voltage"
@@ -79,9 +75,14 @@ SectionPagesMenu = "main"
 	url    = "https://github.com/acobaugh"
 	weight = 40
 
+[[menu.main]]
+	name = "About"
+	identifier = "about"
+	url = "https://andrew.cobaugh.io/#about"
+	weight = 100
 
-#[blackfriday]
-#	smartypants	= true
-#	fractions = true
-#	smartDashes = true
-#	plainIDAnchors = true
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
