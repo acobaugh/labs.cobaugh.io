@@ -6,8 +6,6 @@ title = "Tesla Coils"
   parent = "hv"
 +++
 
-{{< floatimg "8inch_animated.gif" right >}}
-
 ## Coils
 ### Spark Gap
 * [8" SGTC](8inch-sgtc)
