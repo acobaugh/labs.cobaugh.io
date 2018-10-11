@@ -70,6 +70,12 @@ SectionPagesMenu = "main"
 	weight = 30
 
 [[menu.main]]
+	name   = "Lasers"
+	identifier = "lasers"
+	url    = "#"
+	weight = 30
+
+[[menu.main]]
 	name   = "Code"
 	identifier = "code"
 	url    = "https://github.com/acobaugh"
