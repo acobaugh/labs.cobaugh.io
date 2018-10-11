@@ -8,6 +8,19 @@ parent = "tesla"
 
 {{< imgproc "images/IMG_20180922_192018.jpg" Resize "x400" "" "link" >}}
 
+## Introduction
+
+This coil was originally built Fall/Winter of 2011 after outgrowing the 4"
+secondary that I had built nearly 10 years prior. It was originally designed to
+handle between 3kW-10kW of input power, with 10kW being the absolute upper
+maximum. It would be powered initially by a single 12kV PT, with the intent of
+eventually stepping up to pole transformer power as other components were
+acquired. The decade of experience running Tesla coils had taught me a few
+things about do's/do not's, and some features that I wanted in a new coil.
+Particularly: portability, modularity, flexibility, adequate primary-secondary
+spacing, more robust RF ground and topload connections, and better overall
+aesthetics.
+
 ## Specs
 *as of 2018/10/06*
 
@@ -22,18 +35,6 @@ parent = "tesla"
  * Ballasted with a Miller Thunderbolt welder
 * Gap: 12" ARSG, 8 flying, 2 stationary electrodes (all 1/4" pure tungsten)
 
-## Introduction
-
-This coil was originally built Fall/Winter of 2011 after outgrowing the 4"
-secondary that I had built nearly 10 years prior. It was originally designed to
-handle between 3kW-10kW of input power, with 10kW being the absolute upper
-maximum. It would be powered initially by a single 12kV PT, with the intent of
-eventually stepping up to pole transformer power as other components were
-acquired. The decade of experience running Tesla coils had taught me a few
-things about do's/do not's, and some features that I wanted in a new coil.
-Particularly: portability, modularity, flexibility, adequate primary-secondary
-spacing, more robust RF ground and topload connections, and better overall
-aesthetics.
 
 ## Design
 
