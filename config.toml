@@ -87,3 +87,6 @@ SectionPagesMenu = "main"
 	smartDashes = true
 	plainIDAnchors = true
 
+[imaging]
+	quality = 80
+	resampleFilter = "Lanczos"
