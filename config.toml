@@ -100,5 +100,5 @@ SectionPagesMenu = "main"
 	plainIDAnchors = true
 
 [imaging]
-	quality = 85
+	#quality = 85
 	#resampleFilter = "Lanczos"
