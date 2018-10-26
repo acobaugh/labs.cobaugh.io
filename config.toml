@@ -76,6 +76,12 @@ SectionPagesMenu = "main"
 	weight = 30
 
 [[menu.main]]
+	name   = "Amateur Radio"
+	identifier = "ham"
+	url    = "/ham"
+	weight = 40
+
+[[menu.main]]
 	name   = "Code"
 	identifier = "code"
 	url    = "https://github.com/acobaugh"
