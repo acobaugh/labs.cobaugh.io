@@ -3,7 +3,7 @@
 <h2>{{ .Title | markdownify }}</h2>
 <p><small class="text-secondary">
 Published {{ .PublishDate.Format "January 2, 2006" }}
-{{ if gt .Lastmod .PublishDate }}, last updated {{ .Lastmod.Format }}{{ end }}
+{{ if gt .Lastmod .PublishDate }}, last updated {{ .Lastmod.Format "2016-05-28T00:00:00Z" }}{{ end }}
 </small></p>
 
 {{ .Content }}
