@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>News</h1>
+<h2>{{ .Title | markdownify }}</h2>
+<p><small class="text-secondary">
+Published {{ .PublishDate.Format "January 2, 2006" }}
+{{ if gt .Lastmod .PublishDate }}, last updated {{ .Lastmod.Format }}{{ end }}
+</small></p>
+
+{{ .Content }}
+
+{{ end }}
