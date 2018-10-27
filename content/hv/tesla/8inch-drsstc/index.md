@@ -25,7 +25,7 @@ odds and ends to construct the bridge.
 This coil is based around a full bridge of CM300HA-24H modules, a 2x2 bus
 capacitor / doubler arrangement for 6000uF @900VDC, [Gao Guangyan's UD 2.7
 driver](http://www.loneoceans.com/labs/ud27/), and the same 8" secondary and
-3/8" primary from the (8" SGTC")[../8inch-sgtc].
+3/8" primary from the [8" SGTC"](../8inch-sgtc).
 
 ## Design
 
