@@ -2,8 +2,7 @@
 <h1>News</h1>
 <h2>{{ .Title | markdownify }}</h2>
 <p><small class="text-secondary">
-Published {{ .PublishDate.Format "January 2, 2006" }}
-{{ if gt .Lastmod .PublishDate }}, last updated {{ .Lastmod.Format "2016-05-28T00:00:00Z" }}{{ end }}
+Published {{ .PublishDate.Format "January 2, 2006" }}{{ if gt .Lastmod .PublishDate }}, updated {{ .Lastmod.Format "January 2, 2006 3:05 PM MST" }}{{ end }}
 </small></p>
 
 {{ .Content }}
