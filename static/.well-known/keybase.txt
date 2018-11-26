@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/andrewcobaugh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://labs.cobaugh.io
+  * I am andrewcobaugh (https://keybase.io/andrewcobaugh) on keybase.
+  * I have a public key ASDBr8PQXleeV9WLLIsgedm5IwxLOb12Zs9JBIAaeYp00go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101befa2a572c37a1512a1fe75816c9ddb869621fc3d4c4602d822b1ec057a9596a0a",
+      "host": "keybase.io",
+      "kid": "0120c1afc3d05e579e57d58b2c8b2079d9b9230c4b39bd7666cf4904801a798a74d20a",
+      "uid": "9a184651f649d936ab4be921a1791c19",
+      "username": "andrewcobaugh"
+    },
+    "merkle_root": { 
+      "ctime": 1543251453,
+      "hash": "4f24010e715b74a2c89e7452a10c69de72052621a74464d7f7e3a2cc518cca59a19aa1a8a21d78ad34e78fc1d6ec6ea1da495774e6ce677225e89e0ee75c11e2",
+      "hash_meta": "bc756d6a68f1c31a92a01f97fc57313c3186097e5cefb7b5c05016427b08e3e6",
+      "seqno": 4010558
+    },
+    "service": {
+      "entropy": "YSYxtuElt2HolgBdaGrlHOq+",
+      "hostname": "labs.cobaugh.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1543251470,
+  "expire_in": 504576000,
+  "prev": "3d5965b279760fb3e26b0814e26527ea41be204f5911fb952a36b626c0255322",
+  "seqno": 63,
+  "tag": "signature" 
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwa/D0F5XnlfViyyLIHnZuSMMSzm9dmbPSQSAGnmKdNIKp3BheWxvYWTESpcCP8QgPVllsnl2D7PiawgU4mUn6kG+IE9ZEfuVKja2JsAlUyLEIOlJGVzbLiU0ZDCNH/l5l9NogeHCjr/qmPGPy9Fa0e/pAgHCo3NpZ8RAtGhHW7tuEoJCvoFtWv9MzepF9QbokvrwLOTjAhuqeF6wCYRTN1LcpAA77csnv6iQA55BTnX/7Sx/gNHQnVlSA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEvxwI3ZWLYxBq6MS6ouVK90OpzaSxWapT78DyQfS2qVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andrewcobaugh
+
+==================================================================
+
