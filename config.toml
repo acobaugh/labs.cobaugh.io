@@ -2,6 +2,7 @@ baseURL = "https://labs.cobaugh.io/"
 relativeURLs = true
 canonifyURLs = true
 publishDir = "public"
+disablePathToLower = true
 
 languageCode = "en-us"
 title = "Cobaugh Labs"
@@ -108,5 +109,11 @@ timeout = 40000
 	plainIDAnchors = true
 
 [imaging]
-	quality = 85
-	resampleFilter = "Lanczos"
+	quality = 100
+	resampleFilter = "CatmullRom"
+	#resampleFilter = "Lanczos"
+	#resampleFilter = "NearestNeighbor"
+	anchor = "smart"
+
+[imaging.exif]
+	disableLatLong = true
