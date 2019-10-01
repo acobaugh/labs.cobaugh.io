@@ -24,6 +24,8 @@ parent = "tesla"
 * Driver: UD2.7C
 * Feedback/OCD: 50:20:1 current transformers, Fair-rite Type 77 (5977003801 and 5977006401)
 * Interrupter: [Dual Channel MIDI Interrupter](../interrupter)
+* OCD: Currently set to 800A. Could probably handle 1000A+
+* Arc length: ~7ft with ~200VAC input running ~45uS on-time while playing music.
 
 ## Introduction
 
@@ -32,8 +34,8 @@ much heavy iron I had accumulated in my quest to bring my 15kVA Pole Pig
 powered SGTC online.
 
 I already had a large heatsink salvaged from a 7kVA UPS system. I figured I
-could reconfigure my existing CDE 942C MMC to get one good for 10kVDC @208A
-RMS. I simply needed a driver, bus caps, interrupter, IGBTs, and a few other
+could reconfigure my existing CDE 942C MMC to get one good for 0.48uF, 10kVDC 216A
+RMS. I simply needed a driver, bus caps, interrupter, IGBTs, laminated bus, gate drive transformer, and a few other
 odds and ends to construct the bridge.
 
 This coil is based around a full bridge of CM300DY-24H modules, a voltage doubler arrangement for 5500uF @900VDC, [Gao Guangyan's UD 2.7
@@ -69,5 +71,8 @@ the HFBR series ST fiber module installed.
 {{< imgproc "images/IMG_20181008_190511.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20181007_221033.jpg" Resize "400x" "left" "link" >}}
 
-{{< clear >}}
+{{< clear>}}
 
+### Tuning
+
+### Videos
