@@ -4,7 +4,7 @@ type: "index"
 description: "homepage"
 ---
 <div style="float: right; padding: 5px">
-{{< imgproc "labhero.jpg" Resize "x250" >}}
+{{< imgproc "labhero.jpg" Resize "x250" "Lanczos" >}}
 </div>
 
 Welcome to my lab and project site!

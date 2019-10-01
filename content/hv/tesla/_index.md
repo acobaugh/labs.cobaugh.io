@@ -7,14 +7,26 @@ title = "Tesla Coils"
 +++
 
 ## Coils
+
+### DRSSTC
+
+* [8" DRSSTC](81D)
+
+[{{< imgproc "81D.jpg" Resize "x175" >}}](81D)
+
+* [Dual-channel MIDI Interrupter](interrupter)
+
+[{{<imgproc "interrupter.jpg" Resize "x175" >}}](interrupter)
+
 ### Spark Gap
-* [8" SGTC](8inch-sgtc)
 
-[{{< imgproc "8inch_sgtc.png" Resize "x175" >}}](8inch-sgtc)
+* [8" SGTC](81S)
 
-* [4" SGTC](4inch-sgtc)
+[{{< imgproc "8inch_sgtc.png" Resize "x175" >}}](81S)
 
-[{{< imgproc "4inch_sgtc.png" Resize "x175" >}}](4inch-sgtc)
+* [4" SGTC](41S)
+
+[{{< imgproc "4inch_sgtc.png" Resize "x175" >}}](41S)
 
 * [Mini SGTC](mini-sgtc)
 
@@ -24,12 +36,8 @@ title = "Tesla Coils"
 
 [{{< imgproc "micro_sgtc.png" Resize "x175" >}}](micro-sgtc)
 
-### DRSSTC
-* [8" DRSSTC](8inch-drsstc)
-
-[{{< imgproc "8inch_drsstc.png" Resize "x175" >}}](8inch-drsstc)
-
 ### VTTC
+
 * [4PR-1000A VTTC](4pr1000a-vttc)
 
 [{{< imgproc "4pr1000a_vttc.jpg" Resize "x175" >}}](4pr1000a-vttc)
