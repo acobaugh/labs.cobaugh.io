@@ -10,7 +10,11 @@ title = "Tesla Coils"
 
 ### DRSSTC
 
-* [8" DRSSTC](81D)
+* [Model 121D - 12" DRSSTC](121D)
+
+* [Model 82D - 8" DRSSTC](82D)
+
+* [Model 81D - 8" DRSSTC](81D)
 
 [{{< imgproc "81D.jpg" Resize "x175" >}}](81D)
 
@@ -20,11 +24,11 @@ title = "Tesla Coils"
 
 ### Spark Gap
 
-* [8" SGTC](81S)
+* [Model 81S - 8" SGTC](81S)
 
 [{{< imgproc "8inch_sgtc.png" Resize "x175" >}}](81S)
 
-* [4" SGTC](41S)
+* [Model 41S - 4" SGTC](41S)
 
 [{{< imgproc "4inch_sgtc.png" Resize "x175" >}}](41S)
 

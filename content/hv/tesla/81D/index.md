@@ -50,12 +50,18 @@ This coil saw first-light Sept 17 2019, and the first full-power run was conduct
 
 {{< imgproc "images/IMG_20180907_202320.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20180907_202630.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180806_175430.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180812_153720.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180812_153743.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180907_195030.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180908_185524.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20180909_191919.jpg" Resize "400x" "left" "link" >}}
+
+{{< clear >}}
+
+### MMC
+
+{{< imgproc "images/IMG_20190825_165919.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_184101.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_190724.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_190724.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_233903.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_233911.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190914_233918.jpg" Resize "400x" "left" "link" >}}
 
 {{< clear >}}
 
