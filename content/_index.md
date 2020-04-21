@@ -9,6 +9,8 @@ description: "homepage"
 
 Welcome to my lab and project site!
 
+Here I document my hobbies from ham radio, to machining, to motorcycles, to Tesla coils.
+
 Please use the sidebar for navigation until I think of something else to put here.
 
 {{< recentnews >}}
