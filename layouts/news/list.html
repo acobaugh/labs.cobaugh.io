@@ -1,7 +1,7 @@
 {{ define "main" }}
 <ul>
     <!-- orders content according to the "date" field in front matter -->
-    {{ range .Pages.ByPublishDate }}
+    {{ range .Pages.ByPublishDate.Reverse }}
     <li>{{ partial "news-list-item" . }}</li>
     {{ end }}
 </ul>

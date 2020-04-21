@@ -1,7 +1,7 @@
 <h2>Recent News</h2>
 <ul>
     <!-- orders content according to the "date" field in front matter -->
-    {{ range first 5 (where .Site.RegularPages.ByPublishDate "Section" "news") }}
+    {{ range first 5 (where .Site.RegularPages.ByPublishDate.Reverse "Section" "news") }}
     <li>{{ partial "news-list-item" . }}</li>
     {{ end }}
 </ul>
