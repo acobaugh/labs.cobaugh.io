@@ -3,6 +3,7 @@ title = "Model 81D"
 [menu.main]
 identifier = "81D"
 parent = "tesla"
+weight = 9
 +++
 
 {{< imgproc "images/IMG_20190915_222947.jpg" Resize "x400" "" "link" >}}
