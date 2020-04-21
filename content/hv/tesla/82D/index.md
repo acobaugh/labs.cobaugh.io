@@ -3,21 +3,24 @@ title = "Model 82D"
 [menu.main]
 identifier = "82D"
 parent = "tesla"
+weight = 10
 +++
+
+{{< imgproc "images/20200421-004619.jpg" Resize "x400" "" "link" >}}
 
 ## Specs
 
 * Secondary: 8.4" x 45" winding length, 26AWG wire
-* Topload: 11" x 45" ring type
-* Primary: 9T of 3/8" soft copper tubing, 3/8" edge-edge spacing
+* Topload: [10" x 47" ring type](../10x47-ring-toroid)
+* Primary: ~9T of 3/8" soft copper tubing, 3/8" edge-edge spacing, water cooled
 * Primary Capacitor: 5s16p CDE942C20P15K MMC, 0.48uF @10KVDC, 216A RMS, 6912A peak
 * Bridge
   * Layout: H-bridge with voltage doubler for 680VDC with 240VAC input
   * IGBT: 2x Mitsubishi CM300DY-24H
   * Bus capacitor: 5500uF @ 900VDC. 2x CDE 520C 11000uF, 450VDC inverter-grade electrolytic in series. 15kOhm / 10W bleeder/balance resistors
   * Bus: Laminated, 1/16" aluminum, 1/16" G10/FR4 insulating layer
-  * Rectifier: Semikron semipak SKKD81/16
   * Snubber: 2x Aerovox RBPS direct-mount, 2uF 1000VDC each
+* Power Supply: [Remote single-phase 240VAC voltage doubler with precharge/discharge. 680VDC @ 20A output](../12kw-voltage-doubler)
 * Driver: UD2.7C
 * Feedback/OCD: 50:20:1 current transformers, Fair-rite Type 77 (5977003801 and 5977006401)
 * Interrupter: [Dual Channel MIDI Interrupter](../interrupter)
@@ -32,9 +35,24 @@ This new system would revolve around another 8" secondary, but wound with thinne
 
 ## Design
 
+### Power Supply
+
+Remote 680VDC voltage doubling rectifier with builtin EMI protection.
+
 ### Bridge
 
-Same as [81D](../81D#bridge)
+Same as [81D](../81D#bridge), but without the onboard rectifier/doubler configuration. In addition, new PCBs were used for the gate connections.
+
+A second version of the CM300 Gate boards was later designed, but v0.1.0 worked well enough with minimal shoot-through and ringing that this is what is on the bridge today. 820mOhm resistors were added in series with the anti-parallel Schottkey diodes to slow down the turn-off just slightly, and a lower voltage TVS diode was used to clamp the over/undershoots. The result is better than the original configuration which proved effective, so I'm running with it.
+
+KiCad files are available on github. PRs welcome: [github.com/acobaugh/cm300dy-24h-gate-drive-board](https://github.com/acobaugh/cm300dy-24h-gate-drive-board)
+
+{{< imgproc "images/20191228-234615.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/cm300-board.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/20200118-135132700.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/20200118-135223200.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/20200118-135339300.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200118_141640.jpg" Resize "400x" "" "link" >}}
 
 {{< clear >}}
 
@@ -46,13 +64,26 @@ Same as [81D](../81D#driver)
 
 ### Primary
 
+9 turns 3/8" copper with water cooling.
+
 ### Secondary
+
+The secondary is a piece of 8" SDR-35 drain pipe that has been sanded, sealed with polyurethane, wound, then coated with Envirotex Lite 2-part epoxy for a protective, glass-like finish. The ends are finished the same as 81D, with 1/2" pieces of HDPE secured with nylon screws along the edge. The mount is a 1/2-13 nut captured in machined blocks of HDPE on the inside. 
+
+Ground connection is a piece of 5/8"x1/16" copper bent to follow the curvature of the pipe and a piece of brass soldered to it, which is then drilled and tapped for a screw.
 
 {{< imgproc "images/IMG_20191028_210734.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/IMG_20191019_161511.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/IMG_20191022_134936.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/20191109-143321200.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/20191109-143504700_half.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191127_165809.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191203_205856.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191203_212138.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191205_201816.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191205_225203.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191205_230250.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20191206_200955.jpg" Resize "400x" "" "link" >}}
 
 {{< clear >}}
 
