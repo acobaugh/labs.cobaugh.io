@@ -3,6 +3,7 @@
 {{ $options := .Get 2 }}
 {{ $float := .Get 3 }}
 {{ $link := .Get 4 }}
+{{ $style := .Get 5 }}
 {{ if eq $command "Fit"}}
 	{{ .Scratch.Set "image" ($original.Fit $options) }}
 {{ else if eq $command "Resize"}}
@@ -16,13 +17,13 @@
 {{ $image := .Scratch.Get "image" }}
 
 {{ if ne $float "" }}
-<div style="float: {{ $float }}">
+<div style="float: {{ $float }}; {{ $style }}">
 {{ end }}
 
 {{ if eq $link "link" }}
 <a href="{{ $original.RelPermalink }}">
 {{ end }}
-<img style="height: auto; padding: 0px" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />
+<img style="height: auto; padding: 0px; {{ $style }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />
 
 {{ if eq $link "link" }}</a>{{ end }}
 
