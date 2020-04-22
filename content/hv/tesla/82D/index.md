@@ -11,6 +11,7 @@ weight = 10
 ## Specs
 
 * Secondary: 8.4" x 45" winding length, 26AWG wire
+* Resonant frequency: 41.3kHz
 * Topload: [10" x 47" ring type](../10x47-ring-toroid)
 * Primary: ~9T of 3/8" soft copper tubing, 3/8" edge-edge spacing, water cooled
 * Primary Capacitor: 5s16p CDE942C20P15K MMC, 0.48uF @10KVDC, 216A RMS, 6912A peak

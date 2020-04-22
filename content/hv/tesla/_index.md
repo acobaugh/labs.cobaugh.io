@@ -12,7 +12,11 @@ title = "Tesla Coils"
 
 * [Model 121D - 12" DRSSTC](121D)
 
+[{{< imgproc "121D.jpg" Resize "x175" >}}](121D)
+
 * [Model 82D - 8" DRSSTC](82D)
+
+[{{< imgproc "82D.jpg" Resize "x175" >}}](82D)
 
 * [Model 81D - 8" DRSSTC](81D)
 
@@ -45,15 +49,3 @@ title = "Tesla Coils"
 * [4PR-1000A VTTC](4pr1000a-vttc)
 
 [{{< imgproc "4pr1000a_vttc.jpg" Resize "x175" >}}](4pr1000a-vttc)
-
-## Components
-
-### Transformers
-
-### Power Controllers
-
-### Spark Gaps
-
-### Capacitors
-
-### Misc

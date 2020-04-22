@@ -45,12 +45,28 @@ driver](http://www.loneoceans.com/labs/ud27/), and the same 8" secondary and
 
 This coil saw first-light Sept 17 2019, and the first full-power run was conducted Sept 21 2019 without any issues whatsoever.
 
-## Design
+## Construction
 
 ### Bridge
 
+{{< imgproc "images/Mobile Upload 2019-09-05 01-14-25.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/Mobile Upload 2019-09-05 01-12-52.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20180907_202320.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20180907_202630.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190831_140051.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190907_152726.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190907_203455.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190907_204517.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190907_220418.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190908_121230.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190908_154622.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190913_110736.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190915_143404.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190915_222947.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190915_222957.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190915_223153.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190915_223158.jpg" Resize "400x" "left" "link" >}}
+
 
 {{< clear >}}
 
@@ -80,6 +96,36 @@ the HFBR series ST fiber module installed.
 
 {{< clear>}}
 
-### Tuning
+## Testing
 
-### Videos
+Results of low-power testing were promising. Phase lead was adjusted for minimal ringing on the DC bus.
+
+* Yellow: Gate voltage
+* Cyan: Bus voltage
+* Magenta: Primary current
+
+{{< imgproc "images/20190917-230354-8.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/20190919-000934-5.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/20190919-000934-9.jpg" Resize "400x" "" "link" >}}
+
+## Videos
+
+### Low power
+
+{{< youtube "qtrvBUuCPWc" >}}
+
+{{< youtube "36VtV-fspx8" >}}
+
+{{< youtube "Q0M5pnwb2-g" >}}
+
+{{< youtube "OIAsNV0kPw8" >}}
+
+{{< youtube "W62zu6twOg" >}}
+
+### High power
+
+{{< youtube "ad0OaNW8FZ8" >}}
+
+{{< youtube "Y-JfIFaV4wY" >}}
+
+{{< youtube "IIfGnwNV9fQ" >}}
