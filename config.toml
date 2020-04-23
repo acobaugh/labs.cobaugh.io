@@ -61,15 +61,9 @@ timeout = 40000
 	weight = 10
 
 [[menu.main]]
-	name   = "Tools"
-	identifier = "tools"
-	url    = "tools/"
-	weight = 20
-
-[[menu.main]]
-	name   = "Restoration"
-	identifier = "restoration"
-	url    = "resto/"
+	name   = "Machining"
+	identifier = "machining"
+	url    = "machining/"
 	weight = 30
 
 [[menu.main]]
