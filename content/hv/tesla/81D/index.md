@@ -58,7 +58,6 @@ This coil saw first-light Sept 17 2019, and the first full-power run was conduct
 {{< imgproc "images/IMG_20190907_203455.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20190907_204517.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20190907_220418.jpg" Resize "400x" "left" "link" >}}
-{{< imgproc "images/IMG_20190908_121230.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20190908_154622.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20190913_110736.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20190915_143404.jpg" Resize "400x" "left" "link" >}}
@@ -93,6 +92,7 @@ the HFBR series ST fiber module installed.
 {{< imgproc "images/IMG_20181008_190453.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20181008_190511.jpg" Resize "400x" "left" "link" >}}
 {{< imgproc "images/IMG_20181007_221033.jpg" Resize "400x" "left" "link" >}}
+{{< imgproc "images/IMG_20190809_223553.jpg" Resize "400x" "left" "link" >}}
 
 {{< clear>}}
 
