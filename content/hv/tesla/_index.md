@@ -28,7 +28,7 @@ title = "Tesla Coils"
 
 {{< card "mini_sgtc.jpg" "x175" "mini-sgtc" >}}
 
-{{< card "micro_sgtc.png" "x175" "#" >}}
+[//]: {{< card "micro_sgtc.png" "x175" "#" >}}
 
 ### VTTC
 
