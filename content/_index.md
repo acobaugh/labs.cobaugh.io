@@ -12,5 +12,10 @@ Here I document my hobbies from ham radio, to machining, to motorcycles, to Tesl
 
 Please use the sidebar for navigation until I think of something else to put here.
 
+{{< clear >}}
+
+## Recent Changes
+
+{{< updates 5 "align: left; float: left; text-alight: left">}}
 {{< recentnews >}}
 {{< clear >}}
