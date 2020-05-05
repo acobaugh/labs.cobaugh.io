@@ -10,42 +10,26 @@ title = "Tesla Coils"
 
 ### DRSSTC
 
-* [Model 121D - 12" DRSSTC](121D)
+{{< card "121D.jpg" "x175" "121D" >}}
 
-[{{< imgproc "121D.jpg" Resize "x175" >}}](121D)
+{{< card "82D.jpg" "x175" "82D" >}}
 
-* [Model 82D - 8" DRSSTC](82D)
+{{< card "81D.jpg" "x175" "81D" >}}
 
-[{{< imgproc "82D.jpg" Resize "x175" >}}](82D)
+{{< card "interrupter.jpg" "x175" "interrupter" >}}
 
-* [Model 81D - 8" DRSSTC](81D)
-
-[{{< imgproc "81D.jpg" Resize "x175" >}}](81D)
-
-* [Dual-channel MIDI Interrupter](interrupter)
-
-[{{<imgproc "interrupter.jpg" Resize "x175" >}}](interrupter)
+{{< card "10x47-ring-toroid.jpg" "x175" "10x47-ring-toroid" >}}
 
 ### Spark Gap
 
-* [Model 81S - 8" SGTC](81S)
+{{< card "8inch_sgtc.png" "x175" "81S" >}}
 
-[{{< imgproc "8inch_sgtc.png" Resize "x175" >}}](81S)
+{{< card "4inch_sgtc.png" "x175" "41S" >}}
 
-* [Model 41S - 4" SGTC](41S)
+{{< card "mini_sgtc.jpg" "x175" "mini-sgtc" >}}
 
-[{{< imgproc "4inch_sgtc.png" Resize "x175" >}}](41S)
-
-* [Mini SGTC](mini-sgtc)
-
-[{{< imgproc "mini_sgtc.jpg" Resize "x175" >}}](mini-sgtc)
-
-* [Micro SGTC](micro-sgtc)
-
-[{{< imgproc "micro_sgtc.png" Resize "x175" >}}](micro-sgtc)
+{{< card "micro_sgtc.png" "x175" "#" >}}
 
 ### VTTC
 
-* [4PR-1000A VTTC](4pr1000a-vttc)
-
-[{{< imgproc "4pr1000a_vttc.jpg" Resize "x175" >}}](4pr1000a-vttc)
+{{< card "4pr1000a_vttc.jpg" "x175" "4pr1000a-vttc" >}}

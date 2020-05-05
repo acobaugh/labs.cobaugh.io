@@ -1,0 +1,14 @@
+{{ $img := .Get 0 }}
+{{ $size := .Get 1 }}
+{{ $target := .Site.GetPage (.Get 2) }}
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
+{{ .Scratch.Set "image" ($original.Resize $size) }}
+{{ $image := .Scratch.Get "image" }}
+
+<a href="{{ $target.RelPermalink }}" style="border-bottom: none">
+	<div class="card">
+		<img src="{{ $image.RelPermalink }}" />
+		<p style="text-align: center; font-weight: bold">{{ or $target.Title $target.RelPermalink }}</p>
+	</div>
+</a>

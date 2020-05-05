@@ -6,6 +6,4 @@ title = "High Voltage"
 	name = "thumb_tesla"
 +++
 
-* [Tesla Coils](tesla)
-
-[{{< imgproc "thumb_tesla" Resize "x100" >}}](tesla)
+{{< card "thumb_tesla.jpg" "x175" "tesla" >}}

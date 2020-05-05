@@ -4,4 +4,36 @@ header.header {
 	background-size: cover !important;
 }
 
-.header{height:72px;padding:8px}.header
+.header {
+	height:72px;
+	padding:8px
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
+	border-radius: 5px; /* rounded corners */
+
+	margin: 5px;
+
+	display: inline-block;
+	width: auto;
+	/*float: left;*/
+  }
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card img {
+	border-radius: 5px; /* 5px rounded corners */
+}
+
+.cardinner {
+	display: inline-block;
+	padding: 2px 4px;
+}
