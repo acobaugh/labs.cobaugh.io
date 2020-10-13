@@ -6,7 +6,7 @@ parent = "tesla"
 weight = 10
 +++
 
-{{< imgproc "images/20200421-004619.jpg" Resize "x400" "" "link" >}}
+{{< imgproc "images/IMG_20200825_170846.jpg" Resize "x400" "" "link" >}}
 
 ## Specs
 
@@ -14,7 +14,7 @@ weight = 10
 * Resonant frequency: 41.3kHz
 * Topload: [10" x 47" ring type](../10x47-ring-toroid)
 * Primary: ~9T of 3/8" soft copper tubing, 3/8" edge-edge spacing, water cooled
-* Primary Capacitor: 5s16p CDE942C20P15K MMC, 0.48uF @10KVDC, 216A RMS, 6912A peak
+* Primary Capacitor: 5s20p CDE942C20P15K MMC, 0.60uF @10KVDC, 270A RMS, 8640A peak
 * Bridge
   * Layout: H-bridge with voltage doubler for 680VDC with 240VAC input
   * IGBT: 2x Mitsubishi CM300DY-24H
@@ -26,7 +26,7 @@ weight = 10
 * Feedback/OCD: 50:20:1 current transformers, Fair-rite Type 77 (5977003801 and 5977006401)
 * Interrupter: [Dual Channel MIDI Interrupter](../interrupter)
 * OCD: 1200A minimum
-* Arc length: ~7ft with ~200VAC input running ~45uS on-time while playing music.
+* Arc length: TBD
 
 ## Introduction
 
@@ -38,7 +38,7 @@ This new system would revolve around another 8" secondary, but wound with thinne
 
 ### Power Supply
 
-Remote 680VDC voltage doubling rectifier with builtin EMI protection.
+[Remote 680VDC voltage doubling rectifier with builtin EMI protection.](../12kw-voltage-doubler)
 
 ### Bridge
 
@@ -59,13 +59,18 @@ KiCad files are available on github. PRs welcome: [github.com/acobaugh/cm300dy-2
 
 ### Driver
 
-Same as [81D](../81D#driver)
+Same as [81D](../81D#driver), but with a simple 555 add-on board to allow the signal LED to glow brighter.
 
 {{< clear>}}
 
 ### Primary
 
 9 turns 3/8" copper with water cooling.
+
+{{< imgproc "images/IMG_20200806_202441.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200829_195901.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200906_163207.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200906_163219.jpg" Resize "400x" "" "link" >}}
 
 ### Secondary
 
@@ -85,10 +90,22 @@ Ground connection is a piece of 5/8"x1/16" copper bent to follow the curvature o
 {{< imgproc "images/IMG_20191205_225203.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/IMG_20191205_230250.jpg" Resize "400x" "" "link" >}}
 {{< imgproc "images/IMG_20191206_200955.jpg" Resize "400x" "" "link" >}}
-
+{{< imgproc "images/IMG_20200906_181858.jpg" Resize "400x" "" "link" >}}
 {{< clear >}}
 
 {{< youtube "RV8_y-cIPhU" >}}
+
+### Base
+
+{{< imgproc "images/IMG_20200906_164250.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/PXL_20201003_002653642.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/PXL_20200916_000948490.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/PXL_20200916_000952563.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/PXL_20200915_233735293.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200827_210443.jpg" Resize "400x" "" "link" >}}
+{{< imgproc "images/IMG_20200827_210511.jpg" Resize "400x" "" "link" >}}
+
+{{< clear >}}
 
 ### Tuning
 
