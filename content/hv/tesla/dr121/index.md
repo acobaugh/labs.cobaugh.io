@@ -1,11 +1,11 @@
 +++
 title = "Model DR121"
-[menu.main]
-identifier = "dr121"
-parent = "tesla"
 aliases = [
   "/hv/tesla/121D"
 ]
+[menu.main]
+identifier = "dr121"
+parent = "tesla"
 +++
 
 {{< imgproc "images/IMG_20191004_151853.jpg" Resize "x400" "" "link" >}}

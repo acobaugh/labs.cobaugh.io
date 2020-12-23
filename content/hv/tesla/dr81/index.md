@@ -1,10 +1,10 @@
 +++
 title = "Model DR81"
+aliases = ["/hv/tesla/81D"]
 [menu.main]
 identifier = "dr81"
 parent = "tesla"
 weight = 9
-aliases = ["/hv/tesla/81D"]
 +++
 
 {{< imgproc "images/IMG_20190915_222947.jpg" Resize "x400" "" "link" >}}

@@ -1,9 +1,9 @@
 +++
 title = "Model SG81"
+aliases = ["/hv/tesla/81S"]
 [menu.main]
 identifier = "sg81"
 parent = "tesla"
-aliases = ["/hv/tesla/81S"]
 +++
 
 {{< imgproc "images/IMG_20180922_192018.jpg" Resize "x400" "" "link" >}}
