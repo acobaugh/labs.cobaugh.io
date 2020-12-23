@@ -10,11 +10,11 @@ title = "Tesla Coils"
 
 ### DRSSTC
 
-{{< card "121D.jpg" "x175" "121D" >}}
+{{< card "dr121.jpg" "x175" "DR121" >}}
 
-{{< card "82D.jpg" "x175" "82D" >}}
+{{< card "dr82.jpg" "x175" "DR82" >}}
 
-{{< card "81D.jpg" "x175" "81D" >}}
+{{< card "dr81.jpg" "x175" "DR81" >}}
 
 {{< card "interrupter.jpg" "x175" "interrupter" >}}
 
@@ -22,9 +22,9 @@ title = "Tesla Coils"
 
 ### Spark Gap
 
-{{< card "8inch_sgtc.png" "x175" "81S" >}}
+{{< card "8inch_sgtc.png" "x175" "SG81" >}}
 
-{{< card "4inch_sgtc.png" "x175" "41S" >}}
+{{< card "4inch_sgtc.png" "x175" "SG41" >}}
 
 {{< card "mini_sgtc.jpg" "x175" "mini-sgtc" >}}
 
